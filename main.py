@@ -8,12 +8,13 @@ def logger(f):
         try:
             with open("history.json", "r") as file:
                 history_data = json.load(file)
-        except FileNotFoundError:
+
+        except:
             history_data = []
             with open("history.json", "w") as file:
                 json.dump(history_data, file, indent=4)
-        for i in range(len(history_data)-1):
-            if f.__name__ == history_data[i]["name"] and kwargs == history_data[i]["kwargs"] and args == history_data[i]["args"]:
+        for i in range(0, len(history_data)):
+            if f.__name__ == history_data[i]["name"] and kwargs == tuple(history_data[i]["kwargs"]) and args == tuple(history_data[i]["args"]):
                 result = history_data[i]["result"]
 
         if result == "":
@@ -26,16 +27,18 @@ def logger(f):
             history_data.append(function_info)
             with open("history.json", "w") as file:
                 json.dump(history_data, file, indent=4)
+        else:
+            print(result)
         return result
     return wrapper
 
 
 @logger
 def adder(x, y):
-    print(int(x) + int(y))
-    return(int(x) + int(y))
+    print(int(x) - int(y))
+    return(int(x) - int(y))
 
 
-adder(55, 23)
+cow = adder(56, 23)
 
 

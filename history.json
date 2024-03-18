@@ -2,29 +2,11 @@
     {
         "name": "adder",
         "args": [
-            3443,
-            100
+            55,
+            23
         ],
         "kwargs": {},
-        "result": 287
-    },
-    {
-        "name": "adder",
-        "args": [
-            18,
-            100
-        ],
-        "kwargs": {},
-        "result": 287
-    },
-    {
-        "name": "adder",
-        "args": [
-            18,
-            100
-        ],
-        "kwargs": {},
-        "result": 287
+        "result": 32
     },
     {
         "name": "adder",
@@ -33,6 +15,78 @@
             23
         ],
         "kwargs": {},
-        "result": 78
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 32
+    },
+    {
+        "name": "adder",
+        "args": [
+            56,
+            23
+        ],
+        "kwargs": {},
+        "result": 33
+    },
+    {
+        "name": "adder",
+        "args": [
+            56,
+            23
+        ],
+        "kwargs": {},
+        "result": 33
     }
 ]
