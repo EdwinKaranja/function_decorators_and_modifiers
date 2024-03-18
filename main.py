@@ -14,7 +14,7 @@ def logger(f):
             with open("history.json", "w") as file:
                 json.dump(history_data, file, indent=4)
         for i in range(0, len(history_data)):
-            if f.__name__ == history_data[i]["name"] and kwargs == tuple(history_data[i]["kwargs"]) and args == tuple(history_data[i]["args"]):
+            if f.__name__ == history_data[i]["name"] and args == tuple(history_data[i]["args"]):
                 result = history_data[i]["result"]
 
         if result == "":
@@ -34,8 +34,8 @@ def logger(f):
 
 @logger
 def adder(x, y):
-    print(int(x) - int(y))
-    return(int(x) - int(y))
+    print(int(x) + int(y))
+    return(int(x) + int(y))
 
 
 cow = adder(56, 23)

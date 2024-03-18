@@ -88,5 +88,32 @@
         ],
         "kwargs": {},
         "result": 33
+    },
+    {
+        "name": "adder",
+        "args": [
+            56,
+            23
+        ],
+        "kwargs": {},
+        "result": 79
+    },
+    {
+        "name": "adder",
+        "args": [
+            56,
+            23
+        ],
+        "kwargs": {},
+        "result": 79
+    },
+    {
+        "name": "adder",
+        "args": [
+            56,
+            23
+        ],
+        "kwargs": {},
+        "result": 79
     }
 ]
