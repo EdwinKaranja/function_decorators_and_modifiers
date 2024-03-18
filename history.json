@@ -1,0 +1,38 @@
+[
+    {
+        "name": "adder",
+        "args": [
+            3443,
+            100
+        ],
+        "kwargs": {},
+        "result": 287
+    },
+    {
+        "name": "adder",
+        "args": [
+            18,
+            100
+        ],
+        "kwargs": {},
+        "result": 287
+    },
+    {
+        "name": "adder",
+        "args": [
+            18,
+            100
+        ],
+        "kwargs": {},
+        "result": 287
+    },
+    {
+        "name": "adder",
+        "args": [
+            55,
+            23
+        ],
+        "kwargs": {},
+        "result": 78
+    }
+]
