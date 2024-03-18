@@ -32,7 +32,6 @@ def logger(f):
         return result
     return wrapper
 
-
 @logger
 def adder(x, y):
     print(int(x) - int(y))
