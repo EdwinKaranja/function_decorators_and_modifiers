@@ -23,7 +23,9 @@ def logger(f):
                 "kwargs": kwargs,
                 "result": f(*args, **kwargs)}
             result = f(*args, **kwargs)
-            history(function_info)
+            history_data.append(function_info)
+            with open("history.json", "w") as file:
+                json.dump(history_data, file, indent=4)
         return result
     return wrapper
 
