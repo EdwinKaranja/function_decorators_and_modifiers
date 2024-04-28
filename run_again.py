@@ -11,7 +11,7 @@ def try_again(f):
             except Exception as error:
                 print(f"We encountered the following error {error}.")
                 failures += 1
-                time.sleep(6)
+                time.sleep(6*failures)
     return wrapper
 
 
